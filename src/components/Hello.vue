@@ -27,6 +27,9 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  created () {
+    document.getElementsByTagName('title')[0].innerHTML = 'hello'
   }
 }
 </script>
